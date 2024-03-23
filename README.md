@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Faheem Rafiq!</h1>
-<h3 align="center">I am a student of Information technology and a Problem Solver.</h3>
+<h1 align="center">Hi 👋, my name is Faheem!</h1>
+<h3 align="center">I am a Full Stack Developer. I love coding and solving problems.</h3>
 <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width="100%" height="500">
 <img align="right" alt="Coding" width="400"  src="https://miro.medium.com/max/1360/0*7Q3yvSIv_t0ioJ-Z.gif">
 
@@ -9,9 +9,9 @@
 
 - 🔭 I’m currently working on **Laravel(PHP)!**
 
-- 🌱 I’m currently learning **React.js**
+- 🌱 I’m currently improving **React.js** skills
 
-- 💬 Ask me about **Web , LAMP, React.js**
+- 💬 Ask me about **Web , PHP, React.js**
 
 - 📫 How to reach me **<faheemkhan198742@gmail.com>**
 
@@ -24,7 +24,6 @@
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
-<a href="https://laravel.com" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/laravel/laravel-plain-wordmark.svg" alt="android" width="40" height="40"/> </a>
 <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
 <a href="https://react.dev" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React.js" width="40" height="40"/> </a>
 <a href="https://nextjs.org" target="_blank" rel="noreferrer"> <img src="https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png" alt="Next.js" width="40" height="40"/> </a>
