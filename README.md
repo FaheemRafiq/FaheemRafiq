@@ -19,7 +19,7 @@ Hey! I’m **Faheem Khan**, a **Full Stack Developer** with a knack for turning 
 - 🔭 **Currently working on**: Advanced Laravel projects with React.js and Inertia.js.
 - 🌱 **Leveling up**: Cloud infrastructure with AWS and DevOps practices.
 - 💬 **Ask me about**: PHP, JavaScript, cloud deployments, or database optimization.
-- 📫 **Reach me**: <faheemkhan198742@gmail.com>
+- 📫 **Reach me**: <faheemrafiqdev@gmail.com>
 - ⚡ **Fun fact**: I can binge-watch an entire anime season in one night! 🍿
 
 ---
@@ -85,7 +85,7 @@ Hey! I’m **Faheem Khan**, a **Full Stack Developer** with a knack for turning 
   <a href="https://twitter.com/" target="_blank">
     <img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge&color=1DA1F2" alt="Twitter">
   </a>
-  <a href="mailto:faheemkhan198742@gmail.com">
+  <a href="mailto:faheemrafiqdev@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
