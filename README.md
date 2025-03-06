@@ -69,8 +69,6 @@ Hey! I’m **Faheem Khan**, a **Full Stack Developer** with a knack for turning 
 - **MySQL Mastery**: Optimized database schemas and queries for high-performance applications.
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FaheemRafiq&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages">
-  <img src="https://github-readme-stats.vercel.app/api?username=FaheemRafiq&show_icons=true&locale=en&theme=radical" alt="GitHub Stats">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=FaheemRafiq&theme=radical" alt="Streak Stats">
 </div>
 
