@@ -95,7 +95,7 @@ Hey! I’m **Faheem Khan**, a **Full Stack Developer** with a knack for turning 
 ---
 
 ## 🎨 Fun Corner
-- **Currently Watching**: *Deamon Slayer* ⚓
+- **Currently Watching**: *Attack on Titans* ⚓
 - **Favorite Quote**: "Code is like humor. When you have to explain it, it’s bad." – Cory House
 
 <div align="center">
