@@ -14,7 +14,7 @@
 
 ## 👨‍💻 About Me
 
-Hey! I’m **Faheem Khan**, a **Full Stack Developer** with a knack for turning ideas into scalable, efficient, and user-friendly applications. I thrive on solving complex problems and building systems that make a difference. When I’m not coding, you’ll find me exploring anime, movies, or diving into the latest tech trends.
+Hey! I’m **Faheem**, a **Full Stack Developer** with a knack for turning ideas into scalable, efficient, and user-friendly applications. I thrive on solving complex problems and building systems that make a difference. When I’m not coding, you’ll find me exploring anime, movies, or diving into the latest tech trends.
 
 - 🔭 **Currently working on**: Advanced Laravel projects with React.js and Inertia.js.
 - 🌱 **Leveling up**: Cloud infrastructure with AWS and DevOps practices.
@@ -77,7 +77,7 @@ Hey! I’m **Faheem Khan**, a **Full Stack Developer** with a knack for turning 
 ## 📬 Let’s Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/faheem-khan-214909182/" target="_blank">
+  <a href="https://www.linkedin.com/in/faheem-rafiq-214909182/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://twitter.com/" target="_blank">
