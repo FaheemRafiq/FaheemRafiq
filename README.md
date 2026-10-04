@@ -1,62 +1,114 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=0E75B6&center=true&vCenter=true&width=435&lines=Hi+there!+I'm+Faheem!;Full+Stack+Developer" alt="Typing SVG">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=Faheem%20Rafiq&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Full%20Stack%20Developer&descSize=20&descAlignY=58&animation=fadeIn" alt="Faheem Rafiq, Full Stack Developer" width="100%">
+</div>
+
+<div align="center">
+  <a href="https://github.com/FaheemRafiq">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=7AA2F7&center=true&vCenter=true&width=640&lines=Hi+there!+I'm+Faheem+%F0%9F%91%8B;Laravel+%2B+React+%2B+Inertia+on+the+web;Go+for+security+tooling;Python+for+NLP+and+machine+learning;I+ship+things+and+then+I+watch+anime" alt="Typing intro">
+  </a>
 </div>
 
 <p align="center">
   <em>Crafting robust web solutions with a passion for code, scalability, and innovation.</em>
 </p>
 
-<div align="center">
-  <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Coding Banner" width="100%" height="300" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/faheem-rafiq-214909182/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:faheemrafiqdev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://faheemrafiq.github.io/pushwarden/"><img src="https://img.shields.io/badge/PushWarden-1A1B27?style=for-the-badge&logo=go&logoColor=7AA2F7" alt="PushWarden"></a>
+  <img src="https://komarev.com/ghpvc/?username=FaheemRafiq&label=Profile%20Views&color=7aa2f7&style=for-the-badge" alt="Profile views">
+</p>
 
 ---
 
 ## 👨‍💻 About Me
 
-Hey! I’m **Faheem**, a **Full Stack Developer** with a knack for turning ideas into scalable, efficient, and user-friendly applications. I thrive on solving complex problems and building systems that make a difference. When I’m not coding, you’ll find me exploring anime, movies, or diving into the latest tech trends.
+Hey! I'm **Faheem**, a **Full Stack Developer** who likes turning ideas into scalable, efficient, and user-friendly applications. Most of my days are Laravel and React, but I also build security tooling in Go and train NLP models in Python.
 
-- 🔭 **Currently working on**: Advanced Laravel projects with React.js and Inertia.js.
-- 🌱 **Leveling up**: Cloud infrastructure with AWS and DevOps practices.
-- 💬 **Ask me about**: PHP, JavaScript, cloud deployments, or database optimization.
+- 🔭 **Currently working on**: [PushWarden](https://github.com/FaheemRafiq/pushwarden), real-time protection against supply-chain malware on developer machines.
+- 🧠 **Also building**: Mentor AI, with an [emotion classifier](https://github.com/FaheemRafiq/emotion-classifier) that gives the LLM context about how the user feels.
+- 🌱 **Leveling up**: Cloud infrastructure with AWS, DevOps practices, and Go.
+- 💬 **Ask me about**: PHP, Laravel, JavaScript, cloud deployments, or database optimization.
 - 📫 **Reach me**: <faheemrafiqdev@gmail.com>
 - ⚡ **Fun fact**: I can binge-watch an entire anime season in one night! 🍿
 
 ---
 
-## 🚀 Skills & Technologies
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/FaheemRafiq/pushwarden">PushWarden</a></h3>
+      <p>Real-time protection against the PolinRider / Contagious Interview supply-chain malware for developer machines.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+        <img src="https://img.shields.io/badge/YARA-1A1B27?style=flat-square" alt="YARA">
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+        <img src="https://img.shields.io/github/v/release/FaheemRafiq/pushwarden?style=flat-square&color=7aa2f7" alt="Latest release">
+      </p>
+      <p><a href="https://faheemrafiq.github.io/pushwarden/">📖 Website and docs</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/FaheemRafiq/emotion-classifier">Emotion Classifier</a></h3>
+      <p>A supervised NLP classifier for Mentor AI. It reads a journal entry or message and predicts one of seven emotions with a calibrated confidence.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+        <img src="https://img.shields.io/badge/DeBERTa--v3-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="DeBERTa-v3">
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 <a href="https://github.com/FaheemRafiq/gcs_admission_system">GCS Admission System</a></h3>
+      <p>A web application for managing admission forms, examinations, and the admin work around them.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
+        <img src="https://img.shields.io/badge/Inertia.js-9553E9?style=flat-square&logo=inertia&logoColor=white" alt="Inertia.js">
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔀 <a href="https://github.com/FaheemRafiq/nodejs-proxy-server">Reverse Proxy Server</a></h3>
+      <p>A lightweight, configurable reverse proxy that routes requests to several local services, exposes them through Ngrok, and logs every request and response.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express">
+        <img src="https://img.shields.io/badge/Ngrok-1F1E37?style=flat-square&logo=ngrok&logoColor=white" alt="Ngrok">
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/FaheemRafiq?tab=repositories">See all my repositories →</a>
+</p>
+
+---
+
+## 🛠️ Skills & Technologies
 
 <div align="center">
   <h3>Core Stack</h3>
   <p>
-    <a href="https://laravel.com/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/laravel/laravel-original.svg" alt="Laravel" width="50" height="50" title="Laravel"></a>
-    <a href="https://react.dev" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React.js" width="50" height="50" title="React.js"></a>
-    <a href="https://www.mysql.com" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="50" height="50" title="MySQL"></a>
-    <a href="https://aws.amazon.com/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="50" height="50" title="AWS"></a>
-    <a href="https://www.linux.org/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" alt="Linux" width="50" height="50" title="Linux"></a>
+    <img src="https://skillicons.dev/icons?i=laravel,php,react,ts,js,mysql,aws,linux" alt="Laravel, PHP, React, TypeScript, JavaScript, MySQL, AWS, Linux">
   </p>
 
-  <h3>Frontend & Tools</h3>
+  <h3>Frontend</h3>
   <p>
-    <a href="https://vuejs.org/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original-wordmark.svg" alt="Vue.js" width="40" height="40" title="Vue.js"></a>
-    <a href="https://nextjs.org" target="_blank"><img src="https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png" alt="Next.js" width="40" height="40" title="Next.js"></a>
-    <a href="https://tailwindcss.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40" title="Tailwind CSS"></a>
-    <a href="https://www.w3.org/html/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40" title="HTML5"></a>
-    <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40" title="CSS3"></a>
+    <img src="https://skillicons.dev/icons?i=vue,nextjs,astro,tailwind,vite,html,css" alt="Vue.js, Next.js, Astro, Tailwind CSS, Vite, HTML5, CSS3">
   </p>
 
   <h3>Backend & Databases</h3>
   <p>
-    <a href="https://www.php.net/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40" title="PHP"></a>
-    <a href="https://www.mongodb.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40" title="MongoDB"></a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" title="JavaScript"></a>
+    <img src="https://skillicons.dev/icons?i=nodejs,express,go,python,fastapi,postgres,mongodb,sqlite" alt="Node.js, Express, Go, Python, FastAPI, PostgreSQL, MongoDB, SQLite">
   </p>
 
-  <h3>Programming & DevOps</h3>
+  <h3>DevOps & Tools</h3>
   <p>
-    <a href="https://www.cprogramming.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" title="C"></a>
-    <a href="https://www.w3schools.com/cpp/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40" title="C++"></a>
-    <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40" title="Git"></a>
+    <img src="https://skillicons.dev/icons?i=docker,git,github,bash,vercel,c,cpp" alt="Docker, Git, GitHub, Bash, Vercel, C, C++">
   </p>
 </div>
 
@@ -64,40 +116,81 @@ Hey! I’m **Faheem**, a **Full Stack Developer** with a knack for turning ideas
 
 ## 🌟 Highlights
 
-- **AWS Expertise**: Deployed and managed scalable applications on EC2 with CI/CD pipelines.
-- **Linux Proficiency**: Comfortable with server administration, scripting, and deployment on Ubuntu.
-- **MySQL Mastery**: Optimized database schemas and queries for high-performance applications.
+- **AWS**: Deployed and managed scalable applications on EC2 with CI/CD pipelines.
+- **Linux**: Comfortable with server administration, scripting, and deployment.
+- **MySQL**: Optimized database schemas and queries for high-performance applications.
+- **Security**: Built PushWarden to catch supply-chain malware before it reaches a developer's machine.
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FaheemRafiq&theme=radical" alt="Streak Stats">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=FaheemRafiq&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaheemRafiq&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most used languages">
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=FaheemRafiq&theme=tokyonight&hide_border=true" alt="Streak stats">
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FaheemRafiq&theme=tokyonight" alt="Contribution summary" width="100%">
 </div>
 
 ---
 
-## 📬 Let’s Connect
+## 😂 Meme Corner
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/faheem-rafiq-214909182/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://twitter.com/" target="_blank">
-    <img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge&color=1DA1F2" alt="Twitter">
-  </a>
-  <a href="mailto:faheemrafiqdev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</p>
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Random dev joke">
+</div>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=FaheemRafiq&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views">
-</p>
+<br>
+
+<div align="center">
+
+| What I say | What I mean |
+| :-- | :-- |
+| "It works on my machine" | We are shipping my machine |
+| "Just a small refactor" | See you in three days |
+| "I'll fix it properly later" | This is permanent now |
+| "Quick question" | Cancel your afternoon |
+| "It's a one-line change" | In 14 files |
+
+</div>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" alt="Coding GIF" width="400">
+</div>
 
 ---
 
 ## 🎨 Fun Corner
-- **Currently Watching**: *Attack on Titans* ⚓
-- **Favorite Quote**: "Code is like humor. When you have to explain it, it’s bad." – Cory House
+
+- 📺 **Currently Watching**: *Attack on Titan* ⚔️
+- 💬 **Favorite Quote**: "Code is like humor. When you have to explain it, it's bad." – Cory House
 
 <div align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" alt="Coding GIF" width="400">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote">
+</div>
+
+---
+
+## 📬 Let's Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/faheem-rafiq-214909182/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:faheemrafiqdev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://github.com/FaheemRafiq?tab=followers" target="_blank">
+    <img src="https://img.shields.io/github/followers/FaheemRafiq?label=Follow&style=for-the-badge&logo=github&color=1A1B27" alt="GitHub followers">
+  </a>
+</p>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" alt="" width="100%">
 </div>
