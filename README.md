@@ -16,7 +16,6 @@
   <a href="https://www.linkedin.com/in/faheem-rafiq-214909182/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:faheemrafiqdev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://faheemrafiq.github.io/pushwarden/"><img src="https://img.shields.io/badge/PushWarden-1A1B27?style=for-the-badge&logo=go&logoColor=7AA2F7" alt="PushWarden"></a>
-  <img src="https://komarev.com/ghpvc/?username=FaheemRafiq&label=Profile%20Views&color=7aa2f7&style=for-the-badge" alt="Profile views">
 </p>
 
 ---
@@ -168,7 +167,7 @@ Hey! I'm **Faheem**, a **Full Stack Developer** who likes turning ideas into sca
 
 ## 🎨 Fun Corner
 
-- 📺 **Currently Watching**: *Attack on Titan* ⚔️
+- 📺 **Currently Watching**: *Mashle: Magic and Muscles* 💪
 - 💬 **Favorite Quote**: "Code is like humor. When you have to explain it, it's bad." – Cory House
 
 <div align="center">
@@ -189,6 +188,10 @@ Hey! I'm **Faheem**, a **Full Stack Developer** who likes turning ideas into sca
   <a href="https://github.com/FaheemRafiq?tab=followers" target="_blank">
     <img src="https://img.shields.io/github/followers/FaheemRafiq?label=Follow&style=for-the-badge&logo=github&color=1A1B27" alt="GitHub followers">
   </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=FaheemRafiq&label=Profile%20Views&color=7aa2f7&style=flat" alt="Profile views">
 </p>
 
 <div align="center">
