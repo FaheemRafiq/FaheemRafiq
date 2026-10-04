@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-label="NOTIFICATION">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071230"/>
+      <stop offset="1" stop-color="#030816"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cc9ff" stop-opacity="0"/>
+      <stop offset=".12" stop-color="#4cc9ff"/>
+      <stop offset=".88" stop-color="#4cc9ff"/>
+      <stop offset="1" stop-color="#4cc9ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#4cc9ff" opacity=".05"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <style>
+    .t { font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; fill: #e8f6ff; }
+    .m { font-family: 'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; fill: #e8f6ff; }
+    .dim { fill: #8fb6dc; }
+    .acc { fill: #4cc9ff; }
+    .pulse { animation: pulse 3.2s ease-in-out infinite; }
+    .blink { animation: blink 1.4s steps(2, start) infinite; }
+    .sweep { animation: sweep 5s linear infinite; }
+    @keyframes pulse { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+    @keyframes blink { to { visibility: hidden } }
+    @keyframes sweep { from { transform: translateY(-40px) } to { transform: translateY(250px) } }
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+    
+  </style>
+  <rect x="14" y="14" width="852" height="222" fill="url(#bg)" stroke="#4cc9ff" stroke-opacity=".55" stroke-width="1.2"/>
+  <rect x="14" y="14" width="852" height="222" fill="url(#scan)"/>
+  <rect class="sweep" x="14" y="0" width="852" height="40" fill="#4cc9ff" opacity=".035"/>
+  <g class="pulse">
+    <rect x="0" y="9" width="880" height="12" fill="url(#bar)" filter="url(#soft)" opacity=".8"/>
+    <rect x="0" y="229" width="880" height="12" fill="url(#bar)" filter="url(#soft)" opacity=".8"/>
+  </g>
+  <rect x="0" y="12" width="880" height="4" fill="url(#bar)"/>
+  <rect x="0" y="234" width="880" height="4" fill="url(#bar)"/>
+  <g filter="url(#glow)">
+    <rect x="290.0" y="38" width="300" height="40" fill="#071230" fill-opacity=".6" stroke="#4cc9ff" stroke-width="1.4"/>
+    <circle cx="318.0" cy="58" r="12" fill="none" stroke="#e8f6ff" stroke-width="1.6"/>
+    <text class="t" x="318.0" y="64" text-anchor="middle" font-size="17" font-weight="700">!</text>
+    <text class="t" x="454.0" y="65" text-anchor="middle" font-size="19" font-weight="600" letter-spacing="5">NOTIFICATION</text>
+  </g>
+
+  <text class="t" x="440.0" y="122" text-anchor="middle" font-size="20">You have acquired the qualifications</text>
+  <text class="t" x="440.0" y="152" text-anchor="middle" font-size="20">to be a <tspan class="acc" font-weight="700">Player</tspan>. Will you accept?</text>
+  <g filter="url(#glow)" class="pulse">
+    <rect x="290.0" y="178" width="120" height="36" fill="#4cc9ff" fill-opacity=".14" stroke="#4cc9ff" stroke-width="1.4"/>
+    <text class="t" x="350.0" y="202" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="3">YES</text>
+  </g>
+  <rect x="470.0" y="178" width="120" height="36" fill="none" stroke="#8fb6dc" stroke-opacity=".6" stroke-width="1.2"/>
+  <text class="t dim" x="530.0" y="202" text-anchor="middle" font-size="16" font-weight="600" letter-spacing="3">NO</text>
+
+</svg>
