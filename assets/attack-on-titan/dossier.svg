@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 630" width="880" height="630" role="img" aria-label="Soldier record: Faheem Rafiq">
+  <defs>
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".035 .05" numOctaves="4" seed="11" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 .42  0 0 0 0 .30  0 0 0 0 .14  0 0 0 .55 -.12"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 .2  0 0 0 0 .14  0 0 0 0 .06  0 0 0 .22 0"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+    <radialGradient id="vig" cx=".5" cy=".5" r=".75">
+      <stop offset=".6" stop-color="#5a3d1a" stop-opacity="0"/><stop offset="1" stop-color="#5a3d1a" stop-opacity=".5"/>
+    </radialGradient>
+    <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="2" seed="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3"/></filter>
+    <filter id="ds" x="-5%" y="-5%" width="110%" height="112%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000" flood-opacity=".55"/></filter>
+  </defs>
+  <style>
+    .tw { font-family: 'Courier New',Courier,'Liberation Mono',monospace; fill: #2b2118; }
+    .b { font-weight: 700; }
+    .lbl { font-family: Georgia,'Times New Roman',Times,serif; font-size: 12px; letter-spacing: 3px; fill: #6b4a24; }
+    .hd { font-family: Georgia,'Times New Roman',Times,serif; fill: #2b2118; letter-spacing: 6px; font-weight: 700; }
+    .tk { animation: ink .5s ease-out both; }
+    .stamp { transform-box: fill-box; transform-origin: center; animation: stamp .7s 1.4s cubic-bezier(.2,1.6,.4,1) both; }
+    @keyframes ink { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes stamp { 0% { opacity: 0; transform: scale(2.2) } 100% { opacity: 1; transform: scale(1) } }
+  </style>
+  <g filter="url(#ds)">
+    <rect x="14" y="12" width="852" height="602" rx="4" fill="#e4d3ad"/>
+    <rect x="14" y="12" width="852" height="602" rx="4" fill="#fff" filter="url(#paper)"/>
+    <rect x="14" y="12" width="852" height="602" rx="4" fill="#fff" filter="url(#grain)"/>
+    <rect x="14" y="12" width="852" height="602" rx="4" fill="url(#vig)"/>
+  </g>
+  <rect x="30" y="28" width="820" height="570" fill="none" stroke="#2b2118" stroke-opacity=".65" stroke-width="1.6"/>
+  <rect x="35" y="33" width="810" height="560" fill="none" stroke="#2b2118" stroke-opacity=".35" stroke-width=".8"/>
+
+  <text class="hd" x="62" y="76" font-size="21" style="letter-spacing:4px">SURVEY CORPS · SOLDIER RECORD</text>
+  <text class="tw" x="62" y="100" font-size="12.5" opacity=".75">FILE No. 104-FR · CLASSIFIED UNTIL DEPLOYED · WALL PROD DISTRICT</text>
+  <path d="M60,114 H820" stroke="#2b2118" stroke-width="2"/><path d="M60,118 H820" stroke="#2b2118" stroke-width=".7"/>
+
+  <!-- portrait -->
+  <rect x="62" y="140" width="150" height="180" fill="#cdb98c" stroke="#2b2118" stroke-width="1.5"/>
+  <clipPath id="pc"><rect x="62" y="140" width="150" height="180"/></clipPath>
+  <g clip-path="url(#pc)">
+    <path d="M62,320 C70,250 100,236 137,236 C174,236 204,250 212,320Z" fill="#2f4a36"/>
+    <path d="M100,250 C110,205 164,205 174,250 C176,272 160,282 137,282 C114,282 98,272 100,250Z" fill="#23382a"/>
+    <ellipse cx="137" cy="246" rx="27" ry="31" fill="#b89668"/>
+    <path d="M108,236 C108,200 166,200 166,236 C156,222 148,230 137,224 C126,230 118,222 108,236Z" fill="#2b2118"/>
+    <path d="M137,282 L122,320 H152Z" fill="#1b2a20"/>
+  </g>
+  <text class="tw" x="137" y="336" text-anchor="middle" font-size="11" opacity=".7">PORTRAIT ON FILE</text>
+
+  <text class="lbl" x="250" y="152">NAME</text><text class="tw b" x="250" y="176" font-size="19">Faheem Rafiq</text><path d="M250,183 h230" stroke="#2b2118" stroke-opacity=".45" stroke-dasharray="2 3"/>
+  <text class="lbl" x="560" y="152">REGIMENT</text><text class="tw b" x="560" y="176" font-size="19">Survey Corps</text><path d="M560,183 h190" stroke="#2b2118" stroke-opacity=".45" stroke-dasharray="2 3"/>
+  <text class="lbl" x="250" y="216">ROLE</text><text class="tw b" x="250" y="240" font-size="19">Full Stack Developer</text><path d="M250,247 h230" stroke="#2b2118" stroke-opacity=".45" stroke-dasharray="2 3"/>
+  <text class="lbl" x="560" y="216">RANK</text><text class="tw b" x="560" y="240" font-size="19">Squad Captain</text><path d="M560,247 h190" stroke="#2b2118" stroke-opacity=".45" stroke-dasharray="2 3"/>
+  <text class="lbl" x="250" y="280">BUGS SLAIN  (SOLO / ASSISTS)</text><text class="tw b" x="250" y="304" font-size="19">1,204 / 388</text><path d="M250,311 h230" stroke="#2b2118" stroke-opacity=".45" stroke-dasharray="2 3"/>
+  <text class="lbl" x="560" y="280">ENLISTED</text><text class="tw b" x="560" y="304" font-size="19">Year 2020</text><path d="M560,311 h190" stroke="#2b2118" stroke-opacity=".45" stroke-dasharray="2 3"/>
+
+  <path d="M60,356 H820" stroke="#2b2118" stroke-width="1"/>
+  <text class="lbl" x="62" y="376">APTITUDE ASSESSMENT</text>
+  
+  <text class="tw b" x="62" y="410" font-size="15">BLADEWORK</text>
+  <text class="tw" x="232" y="410" font-size="14" opacity=".8">Laravel · PHP</text>
+  <rect x="520" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.00s"/><rect x="539" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.08s"/><rect x="558" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.16s"/><rect x="577" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.24s"/><rect x="596" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.32s"/><rect x="615" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.40s"/><rect x="634" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.48s"/><rect x="653" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.56s"/><rect x="672" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.64s"/><rect x="691" y="398" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.72s"/>
+  <text class="tw b" x="818" y="410" font-size="15" text-anchor="end">10/10</text>
+  <text class="tw b" x="62" y="442" font-size="15">ODM MANEUVERS</text>
+  <text class="tw" x="232" y="442" font-size="14" opacity=".8">React · Vue · Inertia</text>
+  <rect x="520" y="430" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.00s"/><rect x="539" y="430" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.08s"/><rect x="558" y="430" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.16s"/><rect x="577" y="430" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.24s"/><rect x="596" y="430" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.32s"/><rect x="615" y="430" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.40s"/><rect x="634" y="430" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.48s"/><rect x="653" y="430" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.56s"/><rect x="672" y="430" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.64s"/><rect x="691" y="430" width="14" height="14" fill="none" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.72s"/>
+  <text class="tw b" x="818" y="442" font-size="15" text-anchor="end">9/10</text>
+  <text class="tw b" x="62" y="474" font-size="15">STRATEGY</text>
+  <text class="tw" x="232" y="474" font-size="14" opacity=".8">MySQL · PostgreSQL</text>
+  <rect x="520" y="462" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.00s"/><rect x="539" y="462" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.08s"/><rect x="558" y="462" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.16s"/><rect x="577" y="462" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.24s"/><rect x="596" y="462" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.32s"/><rect x="615" y="462" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.40s"/><rect x="634" y="462" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.48s"/><rect x="653" y="462" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.56s"/><rect x="672" y="462" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.64s"/><rect x="691" y="462" width="14" height="14" fill="none" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.72s"/>
+  <text class="tw b" x="818" y="474" font-size="15" text-anchor="end">9/10</text>
+  <text class="tw b" x="62" y="506" font-size="15">ENDURANCE</text>
+  <text class="tw" x="232" y="506" font-size="14" opacity=".8">AWS · Linux · Docker</text>
+  <rect x="520" y="494" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.00s"/><rect x="539" y="494" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.08s"/><rect x="558" y="494" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.16s"/><rect x="577" y="494" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.24s"/><rect x="596" y="494" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.32s"/><rect x="615" y="494" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.40s"/><rect x="634" y="494" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.48s"/><rect x="653" y="494" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.56s"/><rect x="672" y="494" width="14" height="14" fill="none" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.64s"/><rect x="691" y="494" width="14" height="14" fill="none" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.72s"/>
+  <text class="tw b" x="818" y="506" font-size="15" text-anchor="end">8/10</text>
+  <text class="tw b" x="62" y="538" font-size="15">RECON</text>
+  <text class="tw" x="232" y="538" font-size="14" opacity=".8">Go · security tooling</text>
+  <rect x="520" y="526" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.00s"/><rect x="539" y="526" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.08s"/><rect x="558" y="526" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.16s"/><rect x="577" y="526" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.24s"/><rect x="596" y="526" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.32s"/><rect x="615" y="526" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.40s"/><rect x="634" y="526" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.48s"/><rect x="653" y="526" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.56s"/><rect x="672" y="526" width="14" height="14" fill="#2b2118" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.64s"/><rect x="691" y="526" width="14" height="14" fill="none" fill-opacity=".82" stroke="#2b2118" stroke-width="1.1" class="tk" style="animation-delay:0.72s"/>
+  <text class="tw b" x="818" y="538" font-size="15" text-anchor="end">9/10</text>
+  <path d="M60,560 H820" stroke="#2b2118" stroke-width="1"/>
+  <text class="tw" x="62" y="584" font-size="13" opacity=".85">Instructor's note: “Abnormal focus. Cleans the codebase the way the Captain cleans HQ.”</text>
+
+  <g transform="rotate(-9 712 74)" opacity=".85"><g class="stamp" filter="url(#rough)">
+    <rect x="596" y="43" width="232" height="62" rx="6" fill="none" stroke="#a3231c" stroke-width="4"/>
+    <rect x="603" y="50" width="218" height="48" rx="3" fill="none" stroke="#a3231c" stroke-width="1.5"/>
+    <text x="712" y="72" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-weight="700" font-size="15" letter-spacing="3" fill="#a3231c">CLEARED FOR</text>
+    <text x="712" y="91" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-weight="700" font-size="15" letter-spacing="3" fill="#a3231c">EXPEDITION</text>
+  </g></g>
+</svg>

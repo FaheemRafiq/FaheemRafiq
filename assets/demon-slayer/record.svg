@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 584" width="880" height="584" role="img" aria-label="Slayer record: Faheem Rafiq, Full Stack Breathing">
+  <defs>
+    <pattern id="ichi" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#141414"/>
+      <rect width="20" height="20" fill="#2f8f6b"/><rect x="20" y="20" width="20" height="20" fill="#2f8f6b"/>
+    </pattern>
+    <pattern id="asa" width="36" height="62.35" patternUnits="userSpaceOnUse">
+      <rect width="36" height="62.35" fill="#f4a6b8"/>
+      <g stroke="#c2456a" stroke-width="1.1"><line x1="0.00" y1="0.00" x2="36.00" y2="0.00"/><line x1="0.00" y1="31.18" x2="36.00" y2="31.18"/><line x1="0.00" y1="62.35" x2="36.00" y2="62.35"/><line x1="0.00" y1="0.00" x2="36.00" y2="62.35"/><line x1="36.00" y1="0.00" x2="0.00" y2="62.35"/><line x1="18.00" y1="10.39" x2="0.00" y2="0.00"/><line x1="18.00" y1="10.39" x2="36.00" y2="0.00"/><line x1="18.00" y1="10.39" x2="18.00" y2="31.18"/><line x1="18.00" y1="51.96" x2="0.00" y2="62.35"/><line x1="18.00" y1="51.96" x2="36.00" y2="62.35"/><line x1="18.00" y1="51.96" x2="18.00" y2="31.18"/><line x1="0.00" y1="20.78" x2="0.00" y2="0.00"/><line x1="0.00" y1="20.78" x2="-18.00" y2="31.18"/><line x1="0.00" y1="20.78" x2="18.00" y2="31.18"/><line x1="0.00" y1="41.57" x2="0.00" y2="62.35"/><line x1="0.00" y1="41.57" x2="-18.00" y2="31.18"/><line x1="0.00" y1="41.57" x2="18.00" y2="31.18"/><line x1="36.00" y1="20.78" x2="36.00" y2="0.00"/><line x1="36.00" y1="20.78" x2="18.00" y2="31.18"/><line x1="36.00" y1="20.78" x2="54.00" y2="31.18"/><line x1="36.00" y1="41.57" x2="36.00" y2="62.35"/><line x1="36.00" y1="41.57" x2="18.00" y2="31.18"/><line x1="36.00" y1="41.57" x2="54.00" y2="31.18"/></g>
+    </pattern>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3e7cc"/><stop offset="1" stop-color="#e6d3a8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .s { font-family: Georgia,'Times New Roman','Noto Serif',serif; fill: #2a211c; }
+    .b { font-weight: 700; }
+    .l { font-family: Georgia,'Times New Roman','Noto Serif',serif; fill: #8a6d3b; letter-spacing: 3px; font-size: 12px; }
+    .stamp { transform-box: fill-box; transform-origin: center; animation: stamp .7s 1.4s cubic-bezier(.3,1.6,.5,1) both; }
+    @keyframes draw { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @keyframes stamp { from { transform: scale(2.2); opacity: 0 } to { transform: scale(1); opacity: .92 } }
+    .bl0 { transform-box: fill-box; transform-origin: left center; animation: draw 1.1s 0.0s cubic-bezier(.2,.8,.2,1) both; }
+    .bl1 { transform-box: fill-box; transform-origin: left center; animation: draw 1.1s 0.2s cubic-bezier(.2,.8,.2,1) both; }
+    .bl2 { transform-box: fill-box; transform-origin: left center; animation: draw 1.1s 0.4s cubic-bezier(.2,.8,.2,1) both; }
+    .bl3 { transform-box: fill-box; transform-origin: left center; animation: draw 1.1s 0.6s cubic-bezier(.2,.8,.2,1) both; }
+    .bl4 { transform-box: fill-box; transform-origin: left center; animation: draw 1.1s 0.8s cubic-bezier(.2,.8,.2,1) both; }
+    
+  </style>
+  <rect x="6" y="6" width="868" height="572" rx="4" fill="#0f0c0b"/>
+  <rect x="14" y="14" width="852" height="556" fill="url(#paper)"/>
+  <rect x="14" y="14" width="46" height="556" fill="url(#ichi)"/>
+  <rect x="820" y="14" width="46" height="556" fill="url(#asa)"/>
+  <rect x="60" y="14" width="3" height="556" fill="#d9a441"/><rect x="817" y="14" width="3" height="556" fill="#d9a441"/>
+  <rect x="74" y="26" width="732" height="532" fill="none" stroke="#2a211c" stroke-width="1.4"/>
+  <rect x="79" y="31" width="722" height="522" fill="none" stroke="#2a211c" stroke-opacity=".45" stroke-width=".8"/>
+
+  <text class="s b" x="440.0" y="74" text-anchor="middle" font-size="24" letter-spacing="8">SLAYER RECORD</text>
+  <text class="l" x="440.0" y="96" text-anchor="middle">DEMON SLAYER CORPS · FIELD REGISTRY</text>
+  <path d="M250 110 H630" stroke="#c8102e" stroke-width="2"/><path d="M290 115 H590" stroke="#c8102e" stroke-width="1"/>
+
+  <text class="l" x="92" y="150">NAME</text>
+  <text class="s b" x="92" y="178" font-size="24">Faheem Rafiq</text>
+  <text class="l" x="360" y="150">BREATHING STYLE</text>
+  <text class="s b" x="360" y="178" font-size="24" style="fill:#c8102e">Full Stack Breathing</text>
+
+  <text class="l" x="92" y="218">RANK</text>
+  <text class="s b" x="92" y="243" font-size="19">Kinoe</text>
+  <text class="l" x="230" y="218">NICHIRIN BLADE</text>
+  <text class="s b" x="230" y="243" font-size="19">Laravel red</text>
+  <text class="l" x="460" y="218">KASUGAI CROW</text>
+  <text class="s b" x="460" y="243" font-size="19">git push --force</text>
+
+  <path d="M92 268 H788" stroke="#2a211c" stroke-opacity=".5" stroke-dasharray="2 5"/>
+  <text class="l" x="92" y="290">FORMS MASTERED</text>
+
+  <text class="s b" x="92" y="318" font-size="15" letter-spacing="2">FIRST FORM</text>
+  <text class="s" x="250" y="318" font-size="16">Laravel · PHP</text>
+  <g transform="translate(0 313)">
+    <rect x="516" y="-3.5" width="38" height="7" rx="2" fill="#2a211c"/>
+    <path d="M520 -3.5 l5 7 m3 -7 l5 7 m3 -7 l5 7 m3 -7 l5 7" stroke="#f3e7cc" stroke-width="1.2" fill="none"/>
+    <ellipse cx="557" cy="0" rx="3.5" ry="9" fill="#d9a441" stroke="#2a211c" stroke-width="1.2"/>
+    <path class="bl0" d="M560 -3.5 H786 Q797 -3 800 3.5 H560 Z" fill="#c8102e" stroke="#2a211c" stroke-width="1.2"/>
+    <path d="M564 1 H790" stroke="#f3e7cc" stroke-opacity=".55" stroke-width="1"/>
+  </g>
+  <text class="s b" x="92" y="358" font-size="15" letter-spacing="2">SECOND FORM</text>
+  <text class="s" x="250" y="358" font-size="16">React · Vue · Inertia</text>
+  <g transform="translate(0 353)">
+    <rect x="516" y="-3.5" width="38" height="7" rx="2" fill="#2a211c"/>
+    <path d="M520 -3.5 l5 7 m3 -7 l5 7 m3 -7 l5 7 m3 -7 l5 7" stroke="#f3e7cc" stroke-width="1.2" fill="none"/>
+    <ellipse cx="557" cy="0" rx="3.5" ry="9" fill="#d9a441" stroke="#2a211c" stroke-width="1.2"/>
+    <path class="bl1" d="M560 -3.5 H786 Q797 -3 800 3.5 H560 Z" fill="#2b6cb8" stroke="#2a211c" stroke-width="1.2"/>
+    <path d="M564 1 H790" stroke="#f3e7cc" stroke-opacity=".55" stroke-width="1"/>
+  </g>
+  <text class="s b" x="92" y="398" font-size="15" letter-spacing="2">THIRD FORM</text>
+  <text class="s" x="250" y="398" font-size="16">MySQL · PostgreSQL</text>
+  <g transform="translate(0 393)">
+    <rect x="516" y="-3.5" width="38" height="7" rx="2" fill="#2a211c"/>
+    <path d="M520 -3.5 l5 7 m3 -7 l5 7 m3 -7 l5 7 m3 -7 l5 7" stroke="#f3e7cc" stroke-width="1.2" fill="none"/>
+    <ellipse cx="557" cy="0" rx="3.5" ry="9" fill="#d9a441" stroke="#2a211c" stroke-width="1.2"/>
+    <path class="bl2" d="M560 -3.5 H786 Q797 -3 800 3.5 H560 Z" fill="#2f8f6b" stroke="#2a211c" stroke-width="1.2"/>
+    <path d="M564 1 H790" stroke="#f3e7cc" stroke-opacity=".55" stroke-width="1"/>
+  </g>
+  <text class="s b" x="92" y="438" font-size="15" letter-spacing="2">FOURTH FORM</text>
+  <text class="s" x="250" y="438" font-size="16">AWS · Linux · Docker</text>
+  <g transform="translate(0 433)">
+    <rect x="516" y="-3.5" width="38" height="7" rx="2" fill="#2a211c"/>
+    <path d="M520 -3.5 l5 7 m3 -7 l5 7 m3 -7 l5 7 m3 -7 l5 7" stroke="#f3e7cc" stroke-width="1.2" fill="none"/>
+    <ellipse cx="557" cy="0" rx="3.5" ry="9" fill="#d9a441" stroke="#2a211c" stroke-width="1.2"/>
+    <path class="bl3" d="M560 -3.5 H786 Q797 -3 800 3.5 H560 Z" fill="#d98a1f" stroke="#2a211c" stroke-width="1.2"/>
+    <path d="M564 1 H790" stroke="#f3e7cc" stroke-opacity=".55" stroke-width="1"/>
+  </g>
+  <text class="s b" x="92" y="478" font-size="15" letter-spacing="2">FIFTH FORM</text>
+  <text class="s" x="250" y="478" font-size="16">Go · Security tooling</text>
+  <g transform="translate(0 473)">
+    <rect x="516" y="-3.5" width="38" height="7" rx="2" fill="#2a211c"/>
+    <path d="M520 -3.5 l5 7 m3 -7 l5 7 m3 -7 l5 7 m3 -7 l5 7" stroke="#f3e7cc" stroke-width="1.2" fill="none"/>
+    <ellipse cx="557" cy="0" rx="3.5" ry="9" fill="#d9a441" stroke="#2a211c" stroke-width="1.2"/>
+    <path class="bl4" d="M560 -3.5 H786 Q797 -3 800 3.5 H560 Z" fill="#6b4fb3" stroke="#2a211c" stroke-width="1.2"/>
+    <path d="M564 1 H790" stroke="#f3e7cc" stroke-opacity=".55" stroke-width="1"/>
+  </g>
+  <path d="M92 504 H788" stroke="#2a211c" stroke-opacity=".5" stroke-dasharray="2 5"/>
+  <text class="s" x="92" y="530" font-size="14" font-style="italic">Total Concentration: Constant. Broken only by merge conflicts.</text>
+  <g class="stamp"><g transform="rotate(-8 748 172)" opacity=".92">
+    <circle cx="748" cy="172" r="40" fill="none" stroke="#c8102e" stroke-width="4"/>
+    <circle cx="748" cy="172" r="33" fill="#c8102e"/>
+    <text x="748" y="185" text-anchor="middle" font-size="38" font-weight="700" fill="#f3e7cc" font-family="'Noto Serif CJK JP','Yu Mincho','Hiragino Mincho ProN','Songti SC',serif">滅</text>
+  </g></g>
+</svg>

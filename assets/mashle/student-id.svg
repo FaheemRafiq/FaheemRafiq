@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" width="880" height="470" role="img" aria-label="Easton Magic Academy student ID: Faheem Rafiq, Full Stack Developer, dorm Adler. Magic: none. Muscles: max.">
+  <defs>
+    <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <circle cx="2.2" cy="2.2" r="1.5" fill="#1a1612" opacity=".16"/>
+    </pattern>
+    <pattern id="dotsg" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
+      <circle cx="2" cy="2" r="1.5" fill="#d9a521" opacity=".55"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="corner"><rect width="100%" height="100%" fill="url(#fade)"/></mask>
+  </defs>
+  <style>
+    .c { font-family: Impact,'Arial Black','Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: 900; fill: #1a1612; }
+    .t { font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif; fill: #1a1612; }
+    .m { font-family: 'Fira Code','JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; fill: #1a1612; }
+    .bob { animation: bob 2.4s ease-in-out infinite; }
+    @keyframes bob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-7px) } }
+    
+    .g { transform-box: fill-box; transform-origin: left; animation: grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
+    .g0 { animation-delay: 0.0s } .g1 { animation-delay: 0.2s } .g2 { animation-delay: 0.4s } .g3 { animation-delay: 0.6s } .g4 { animation-delay: 0.8s } 
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    .stamp { animation: stamp 4s cubic-bezier(.2,1.8,.4,1) infinite; transform-origin: 730px 132px; }
+    @keyframes stamp { 0% { transform: scale(2.2) rotate(-14deg); opacity: 0 } 10%,100% { transform: scale(1) rotate(-14deg); opacity: .9 } }
+    .blink { animation: blink 4.5s infinite; transform-origin: 160px 232px; }
+    @keyframes blink { 0%,92%,100% { transform: scaleY(1) } 95% { transform: scaleY(.1) } }
+
+  </style>
+  <rect x="16" y="16" width="856" height="446" fill="#d9a521"/>
+  <rect x="8" y="8" width="856" height="446" fill="#f6ecd2" stroke="#1a1612" stroke-width="5"/>
+  <rect x="8" y="8" width="856" height="446" fill="url(#dots)" mask="url(#corner)"/>
+
+  <rect x="8" y="8" width="856" height="86" fill="#1a1612"/>
+  <rect x="8" y="94" width="856" height="7" fill="#d9a521" stroke="#1a1612" stroke-width="2.5"/>
+  
+  <g transform="translate(64,40)">
+    <path d="M0 0 h44 v30 q0 22 -22 32 q-22 -10 -22 -32z" fill="#d9a521" stroke="#1a1612" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M22 12 l4.5 10 l11 1 l-8.4 7.2 l2.7 10.8 l-9.8 -6 l-9.8 6 l2.7 -10.8 l-8.4 -7.2 l11 -1z" fill="#1a1612"/>
+  </g>
+  <text class="c" x="128" y="58" font-size="29" letter-spacing="3" style="fill:#f6ecd2">EASTON MAGIC ACADEMY</text>
+  <text class="m" x="130" y="80" font-size="12.5" letter-spacing="3" style="fill:#d9a521">STUDENT IDENTIFICATION · DEPT. OF SHIPPING THINGS</text>
+  
+  <rect x="62" y="118" width="196" height="232" fill="#fffaf0" stroke="#1a1612" stroke-width="4"/>
+  <rect x="62" y="118" width="196" height="232" fill="url(#dotsg)" opacity=".5"/>
+  <path d="M82 350 Q84 300 128 290 L192 290 Q236 300 238 350Z" fill="#1a1612"/>
+  <path d="M150 288 l10 22 l10 -22z" fill="#fffaf0"/>
+  <rect x="146" y="262" width="28" height="32" fill="#f3d9bd" stroke="#1a1612" stroke-width="3"/>
+  <ellipse cx="160" cy="228" rx="50" ry="54" fill="#f3d9bd" stroke="#1a1612" stroke-width="3.5"/>
+  <path d="M106 232 Q100 160 160 160 Q220 160 214 232 Q212 206 200 204 L120 204 Q108 206 106 232Z" fill="#1a1612"/>
+  <g class="blink"><rect x="132" y="229" width="18" height="5" rx="2" fill="#1a1612"/><rect x="170" y="229" width="18" height="5" rx="2" fill="#1a1612"/></g>
+  <path d="M150 256 h20" stroke="#1a1612" stroke-width="3" stroke-linecap="round"/>
+  <text class="m" x="160" y="372" text-anchor="middle" font-size="11.5" opacity=".7">expression: none</text>
+
+  <text class="m" x="300" y="136" font-size="11.5" letter-spacing="3" opacity=".7">NAME</text>
+  <text class="c" x="300" y="166" font-size="29" letter-spacing="1">FAHEEM RAFIQ</text>
+  <text class="m" x="300" y="196" font-size="11.5" letter-spacing="3" opacity=".7">COURSE</text>
+  <text class="t" x="300" y="218" font-size="17" font-weight="700">Full Stack Developer</text>
+  <text class="m" x="520" y="196" font-size="11.5" letter-spacing="3" opacity=".7">DORM</text>
+  <text class="t" x="520" y="218" font-size="17" font-weight="700">Adler</text>
+  <text class="m" x="640" y="196" font-size="11.5" letter-spacing="3" opacity=".7">WAND</text>
+  <text class="t" x="640" y="218" font-size="17" font-weight="700">a keyboard</text>
+  <line x1="300" y1="232" x2="824" y2="232" stroke="#1a1612" stroke-width="2.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+
+  <text class="c" x="300" y="262" font-size="17" letter-spacing="2">MAGIC</text>
+  <text class="m" x="410" y="261" font-size="12.5" opacity=".75">none detected</text>
+  <rect x="610" y="249" width="170" height="13" fill="#fffaf0" stroke="#1a1612" stroke-width="2.5"/>
+  <rect class="g g0" x="611.5" y="250.5" width="0" height="10" fill="#c4472d"/>
+  <text class="c" x="826" y="262" text-anchor="end" font-size="16" style="fill:#c4472d">0</text>
+  <text class="c" x="300" y="296" font-size="17" letter-spacing="2">MUSCLES</text>
+  <text class="m" x="410" y="295" font-size="12.5" opacity=".75">Laravel · PHP · React</text>
+  <rect x="610" y="283" width="170" height="13" fill="#fffaf0" stroke="#1a1612" stroke-width="2.5"/>
+  <rect class="g g1" x="611.5" y="284.5" width="167" height="10" fill="#d9a521"/>
+  <text class="c" x="826" y="296" text-anchor="end" font-size="16" >MAX</text>
+  <text class="c" x="300" y="330" font-size="17" letter-spacing="2">STAMINA</text>
+  <text class="m" x="410" y="329" font-size="12.5" opacity=".75">AWS · Linux · Docker</text>
+  <rect x="610" y="317" width="170" height="13" fill="#fffaf0" stroke="#1a1612" stroke-width="2.5"/>
+  <rect class="g g2" x="611.5" y="318.5" width="147" height="10" fill="#d9a521"/>
+  <text class="c" x="826" y="330" text-anchor="end" font-size="16" >88</text>
+  <text class="c" x="300" y="364" font-size="17" letter-spacing="2">FOCUS</text>
+  <text class="m" x="410" y="363" font-size="12.5" opacity=".75">MySQL · PostgreSQL</text>
+  <rect x="610" y="351" width="170" height="13" fill="#fffaf0" stroke="#1a1612" stroke-width="2.5"/>
+  <rect class="g g3" x="611.5" y="352.5" width="150" height="10" fill="#d9a521"/>
+  <text class="c" x="826" y="364" text-anchor="end" font-size="16" >90</text>
+  <text class="c" x="300" y="398" font-size="17" letter-spacing="2">APPETITE</text>
+  <text class="m" x="410" y="397" font-size="12.5" opacity=".75">cream puffs · chai</text>
+  <rect x="610" y="385" width="170" height="13" fill="#fffaf0" stroke="#1a1612" stroke-width="2.5"/>
+  <rect class="g g4" x="611.5" y="386.5" width="167" height="10" fill="#e8b46a"/>
+  <text class="c" x="826" y="398" text-anchor="end" font-size="16" >MAX</text>
+  <line x1="300" y1="414" x2="824" y2="414" stroke="#1a1612" stroke-width="2.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+  <circle cx="312" cy="436" r="9" fill="#d9a521" stroke="#1a1612" stroke-width="2.5"/>
+  <text class="t" x="330" y="441" font-size="14" font-weight="700">Gold coins: 4 shipped projects</text>
+  <g transform="translate(596,440) scale(.3)"><g class="">
+    <ellipse cx="0" cy="30" rx="34" ry="5" fill="#1a1612" opacity=".18"/>
+    <path d="M-36 14 Q-38 -4 -18 -6 L18 -6 Q38 -4 36 14 Q30 28 0 28 Q-30 28 -36 14Z" fill="#e8b46a" stroke="#1a1612" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-30 -4 q6 -12 14 -4 q8 -12 16 0 q8 -12 16 0 q8 -6 12 6 q-28 10 -58 2z" fill="#fffaf0" stroke="#1a1612" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-26 -12 Q-24 -38 0 -38 Q24 -38 26 -12 Q0 -4 -26 -12Z" fill="#e8b46a" stroke="#1a1612" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-12 -28 q6 -6 14 -4" fill="none" stroke="#fffaf0" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="10" cy="-22" r="1.6" fill="#fffaf0"/><circle cx="-4" cy="-18" r="1.4" fill="#fffaf0"/><circle cx="16" cy="-16" r="1.2" fill="#fffaf0"/>
+    </g></g>
+  <text class="t" x="614" y="441" font-size="14" font-weight="700">Cream puffs eaten: lost count</text>
+  <g class="stamp">
+    <rect x="652" y="108" width="156" height="48" rx="6" fill="none" stroke="#c4472d" stroke-width="4"/>
+    <text class="c" x="730" y="141" text-anchor="middle" font-size="24" letter-spacing="3" style="fill:#c4472d">ENROLLED</text>
+  </g>
+
+</svg>

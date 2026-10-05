@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" width="880" height="470" role="img" aria-label="Captain's Log">
+  <defs>
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="4" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 .35  0 0 0 0 .22  0 0 0 0 .08  0 0 0 .55 -.12" result="t"/>
+      <feComposite in="t" in2="SourceGraphic" operator="in" result="tt"/>
+      <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="tt"/></feMerge>
+    </filter>
+    <radialGradient id="burn" cx=".5" cy=".5" r=".75">
+      <stop offset=".55" stop-color="#7a4a16" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5b3410" stop-opacity=".55"/>
+    </radialGradient>
+    <radialGradient id="glass" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ffffff" stop-opacity=".95"/><stop offset=".5" stop-color="#bfe6f7" stop-opacity=".55"/><stop offset="1" stop-color="#5fa9cf" stop-opacity=".55"/></radialGradient>
+    <clipPath id="c"><rect width="880" height="470" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .ln { animation: ink .9s ease-out both; }
+    .ndl { animation: seek 4.2s ease-in-out infinite; transform-origin: 712px 236px; }
+    .pen { animation: scratch 2.4s ease-in-out infinite; transform-origin: 540px 420px; }
+    @keyframes ink { from { opacity: 0; transform: translateX(-10px) } to { opacity: 1; transform: none } }
+    @keyframes seek { 0% { transform: rotate(-40deg) } 20% { transform: rotate(55deg) } 45% { transform: rotate(-110deg) } 70% { transform: rotate(170deg) } 100% { transform: rotate(-40deg) } }
+    @keyframes scratch { 0%,100% { transform: rotate(0) } 50% { transform: rotate(5deg) } }
+  </style>
+  <g clip-path="url(#c)"><rect width="880" height="470" fill="#0f4c7a"/>
+    <path d="M600 40 q12 -8 24 0 t24 0" fill="none" stroke="#3f8fc4" stroke-width="2" opacity=".5"/><path d="M700 420 q12 -8 24 0 t24 0" fill="none" stroke="#3f8fc4" stroke-width="2" opacity=".5"/><path d="M810 90 q12 -8 24 0 t24 0" fill="none" stroke="#3f8fc4" stroke-width="2" opacity=".5"/><path d="M20 440 q12 -8 24 0 t24 0" fill="none" stroke="#3f8fc4" stroke-width="2" opacity=".5"/><path d="M590 440 q12 -8 24 0 t24 0" fill="none" stroke="#3f8fc4" stroke-width="2" opacity=".5"/><path d="M820 400 q12 -8 24 0 t24 0" fill="none" stroke="#3f8fc4" stroke-width="2" opacity=".5"/><path d="M640 100 q12 -8 24 0 t24 0" fill="none" stroke="#3f8fc4" stroke-width="2" opacity=".5"/>
+  </g>
+  <rect x="1.5" y="1.5" width="877" height="467" rx="13" fill="none" stroke="#072b47" stroke-width="3"/>
+  <g filter="url(#paper)"><path d="M28 30 l8 -6 h532 l8 8 v404 l-8 8 h-530 l-10 -8z" fill="#efdcae"/></g>
+  <path d="M28 30 l8 -6 h532 l8 8 v404 l-8 8 h-530 l-10 -8z" fill="url(#burn)"/>
+  <path d="M28 30 l8 -6 h532 l8 8 v404 l-8 8 h-530 l-10 -8z" fill="none" stroke="#3b2413" stroke-width="2.5"/>
+  <text x="300" y="78" text-anchor="middle" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="30" font-weight="900" letter-spacing="6" fill="#3b2413">CAPTAIN'S LOG</text>
+  <path d="M64 96 h470 M64 101 h470" stroke="#3b2413" stroke-width="1.5"/>
+  
+    <g class="ln" style="animation-delay:0.00s">
+      <text x="64" y="150" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="13" font-weight="900" letter-spacing="2" fill="#b3261e">DAY 1</text>
+      <text x="128" y="150" font-family="Georgia,'Times New Roman',Times,serif" font-style="italic" font-size="18.5" fill="#3b2413">Set sail to fix one small bug. Spirits high.</text>
+      <path d="M64 162 h470" stroke="#b89a62" stroke-width="1"/>
+    </g>
+    <g class="ln" style="animation-delay:0.35s">
+      <text x="64" y="196" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="13" font-weight="900" letter-spacing="2" fill="#b3261e">DAY 2</text>
+      <text x="128" y="196" font-family="Georgia,'Times New Roman',Times,serif" font-style="italic" font-size="18.5" fill="#3b2413">The bug had a crew. And a fleet.</text>
+      <path d="M64 208 h470" stroke="#b89a62" stroke-width="1"/>
+    </g>
+    <g class="ln" style="animation-delay:0.70s">
+      <text x="64" y="242" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="13" font-weight="900" letter-spacing="2" fill="#b3261e">DAY 3</text>
+      <text x="128" y="242" font-family="Georgia,'Times New Roman',Times,serif" font-style="italic" font-size="18.5" fill="#3b2413">Entered node_modules. No one has returned.</text>
+      <path d="M64 254 h470" stroke="#b89a62" stroke-width="1"/>
+    </g>
+    <g class="ln" style="animation-delay:1.05s">
+      <text x="64" y="288" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="13" font-weight="900" letter-spacing="2" fill="#b3261e">DAY 4</text>
+      <text x="128" y="288" font-family="Georgia,'Times New Roman',Times,serif" font-style="italic" font-size="18.5" fill="#3b2413">Found the cause. It was me, three months ago.</text>
+      <path d="M64 300 h470" stroke="#b89a62" stroke-width="1"/>
+    </g>
+    <g class="ln" style="animation-delay:1.40s">
+      <text x="64" y="334" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="13" font-weight="900" letter-spacing="2" fill="#b3261e">DAY 5</text>
+      <text x="128" y="334" font-family="Georgia,'Times New Roman',Times,serif" font-style="italic" font-size="18.5" fill="#3b2413">Tests pass. Nobody knows why. We do not ask.</text>
+      <path d="M64 346 h470" stroke="#b89a62" stroke-width="1"/>
+    </g>
+    <g class="ln" style="animation-delay:1.75s">
+      <text x="64" y="380" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="13" font-weight="900" letter-spacing="2" fill="#b3261e">DAY 6</text>
+      <text x="128" y="380" font-family="Georgia,'Times New Roman',Times,serif" font-style="italic" font-size="18.5" fill="#3b2413">Deployed on a Friday. The sea was angry.</text>
+      <path d="M64 392 h470" stroke="#b89a62" stroke-width="1"/>
+    </g>
+  <text x="534" y="430" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-style="italic" font-size="14" fill="#6b4a2a">— signed, the Captain</text>
+  <g class="pen"><path d="M540 420 l52 -70 l8 6 l-50 70z" fill="#fff8e3" stroke="#3b2413" stroke-width="2" stroke-linejoin="round"/><path d="M540 420 l5 -12 l6 5z" fill="#3b2413"/></g>
+
+  <!-- log pose -->
+  <text x="712" y="70" text-anchor="middle" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="20" font-weight="900" letter-spacing="5" fill="#fde9b6">LOG POSE</text>
+  <path d="M640 330 q-30 40 0 78 h144 q30 -38 0 -78z" fill="#8a4b1c" stroke="#2c180a" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="648" y="340" width="128" height="10" rx="5" fill="#b9783c" stroke="#2c180a" stroke-width="2"/>
+  <path d="M664 150 v-22 M760 150 v-22 M664 128 q48 -28 96 0" fill="none" stroke="#b9783c" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="712" cy="236" r="104" fill="url(#glass)" stroke="#e8f6ff" stroke-width="4"/>
+  <path d="M640 180 q20 -40 62 -46" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+  <g class="ndl"><path d="M712 156 l10 80 h-20z" fill="#b3261e" stroke="#2c180a" stroke-width="2"/><path d="M712 316 l10 -80 h-20z" fill="#fff8e3" stroke="#2c180a" stroke-width="2"/></g>
+  <circle cx="712" cy="236" r="7" fill="#2c180a"/>
+  <text x="712" y="386" text-anchor="middle" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="13" font-weight="900" letter-spacing="1.5" fill="#fde9b6">NEXT ISLAND:</text>
+  <text x="712" y="402" text-anchor="middle" font-family="'Rockwell','Roboto Slab','Rockwell Nova',Georgia,'Times New Roman',serif" font-size="12" font-weight="700" letter-spacing="1" fill="#f2c94c">PRODUCTION (probably)</text>
+</svg>
